@@ -1,4 +1,4 @@
-# deep-video-prior
+# deep-video-prior (DVP)
 Code for NeurIPS 2020 paper: Blind Video Temporal Consistency via Deep Video Prior
 
 
@@ -10,7 +10,7 @@ Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in 
 | [project website](https://chenyanglei.github.io/DVP/index.html)
 
 
-## Setup
+## Dependencey
 
 ### Environment
 This code is based on tensorflow. It has been tested on Ubuntu 18.04 LTS.
