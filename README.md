@@ -59,18 +59,6 @@ If you find this work useful for your research, please cite:
 }                
 ```
 
-or 
-
-```
-@misc{lei2020blind,
-      title={Blind Video Temporal Consistency via Deep Video Prior}, 
-      author={Chenyang Lei and Yazhou Xing and Qifeng Chen},
-      year={2020},
-      eprint={2010.11838},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
 
 ## Contact
 Please contact me if there is any question (Chenyang Lei, leichenyang7@gmail.com)
