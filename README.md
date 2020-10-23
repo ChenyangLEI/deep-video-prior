@@ -1,11 +1,6 @@
 # deep-video-prior (DVP)
 Code for NeurIPS 2020 paper: Blind Video Temporal Consistency via Deep Video Prior
 
-
-
-# CVPR2020-Polarized-Reflection-Removal-with-Perfect-Alignment
-Code for CVPR2020 paper "Polarized Reflection Removal with Perfect Alignment in the Wild"
-
 [paper](https://arxiv.org/abs/2010.11838)
 | [project website](https://chenyanglei.github.io/DVP/index.html)
 
