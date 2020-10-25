@@ -1,7 +1,6 @@
 import numpy as np
 import tensorflow as tf
 import os
-import cv2
 import math
 import scipy
 import scipy.misc as sic
@@ -82,18 +81,6 @@ def resize_pair_images(net_in, net_gt):
         net_gt = net_gt[:,::2,::2,:]     
     return net_in, net_gt
 
-def rotate_pair_images(net_in, net_gt):
-    (h, w) = net_in.shape[1:3]
-    center = (w / 2, h / 2)
-    angle90 = np.random.randint(180)
-    scale = 1.0
-    M = cv2.getRotationMatrix2D(center, angle90, scale)
-    net_in=cv2.warpAffine(net_in[0], M, (h, w))
-    net_gt= cv2.warpAffine(net_gt[0], M, (h, w))
-    # print(net_in.shape, net_gt.shape)
-    # plt.imshow(net_in)
-    return net_in[np.newaxis,:,:,:], net_gt[np.newaxis,:,:,:]
-
 
 def flip_images(X):
     num_img = X.shape[0]
@@ -149,7 +136,7 @@ def get_weight_bias(vgg_layers,i):
     bias=tf.constant(np.reshape(bias,(bias.size)))
     return weights,bias
 
-vgg_rawnet=scipy.io.loadmat('VGG_Model/imagenet-vgg-verydeep-19.mat')
+vgg_rawnet=scipy.io.loadmat('./VGG_Model/imagenet-vgg-verydeep-19.mat')
 def build_vgg19(input,reuse=False):
     with tf.variable_scope("vgg19"):
         if reuse:
