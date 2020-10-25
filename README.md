@@ -19,11 +19,11 @@ After installing Anaconda, you can setup the environment simply by
 conda env create -f environment.yml
 ```
 
-### Download checkpoint and VGG model
+### Download VGG model
+```
+python download_VGG.py
+```
 
-Download the VGG model from the [Google drive](https://drive.google.com/file/d/1Hm_VS5Acxge3t0TUhKFZa8c0QFw2TTr_/view?usp=sharing), put them in the correct path:
-
-./VGG_Model/imagenet-vgg-verydeep-19.mat
 
 
 ## Inference
