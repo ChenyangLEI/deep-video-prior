@@ -34,7 +34,7 @@ python download_VGG.py
 
 ### Demo 
 ```
-bash tesh.sh
+bash test.sh
 ```
 The results are placed in ./result
 
