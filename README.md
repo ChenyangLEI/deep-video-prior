@@ -25,9 +25,9 @@ conda env create -f environment.yml
 ```
 cd deep-video-prior
 
-mkdir VGG_Model
-
 python download_VGG.py
+
+unzip VGG_Model.zip
 ```
 
 

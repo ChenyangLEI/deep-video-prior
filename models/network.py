@@ -1,7 +1,7 @@
 from __future__ import absolute_import
 from __future__ import division
 from __future__ import print_function
-import os,time,cv2,scipy.io
+import os,time,scipy.io
 import tensorflow as tf
 import tensorflow.contrib.slim as slim
 import numpy as np

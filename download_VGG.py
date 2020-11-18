@@ -28,6 +28,5 @@ def save_response_content(response, destination):
         for chunk in response.iter_content(CHUNK_SIZE):
             if chunk: # filter out keep-alive new chunks
                 f.write(chunk)
-
 print('Dowloading VGG-19 Model (510Mb)')
-download_file_from_google_drive('1Hm_VS5Acxge3t0TUhKFZa8c0QFw2TTr_', './VGG_Model/imagenet-vgg-verydeep-19.mat')
+download_file_from_google_drive('1Hm_VS5Acxge3t0TUhKFZa8c0QFw2TTr_', './VGG_Model.zip')
