@@ -1,9 +1,7 @@
 # deep-video-prior (DVP)
 Code for NeurIPS 2020 paper: Blind Video Temporal Consistency via Deep Video Prior
 
-[PyTorch implementation](https://github.com/yzxing87/pytorch-deep-video-prior) of Deep Video Prior is coming soon...
-
-[paper](https://arxiv.org/abs/2010.11838)
+[PyTorch implementation](https://github.com/yzxing87/pytorch-deep-video-prior) | [paper](https://arxiv.org/abs/2010.11838)
 | [project website](https://chenyanglei.github.io/DVP/index.html)
 
 ## Introduction
