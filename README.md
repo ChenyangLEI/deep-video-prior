@@ -6,6 +6,14 @@ Code for NeurIPS 2020 paper: Blind Video Temporal Consistency via Deep Video Pri
 [paper](https://arxiv.org/abs/2010.11838)
 | [project website](https://chenyanglei.github.io/DVP/index.html)
 
+## Introduction
+Our method is a general framework to improve the temporal consistency of video processed by image algorithms. For example, combining image colorization or image dehazing algorithm with our framework, we can achieve the goal of video colorization or video dehazing. 
+
+
+<img src="example/example_in.gif" height="280px"/> <img src="example/example_out.gif" height="280px"/> 
+<img src="example/example2_in.gif" height="280px"/> <img src="example/example2_out.gif" height="280px"/> 
+
+
 
 ## Dependencey
 
