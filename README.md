@@ -25,6 +25,7 @@ After installing Anaconda, you can setup the environment simply by
 
 ```
 conda env create -f environment.yml
+conda activate deep-video-prior
 ```
 
 ### Download VGG model
