@@ -231,7 +231,7 @@ for epoch in range(1,maxepoch):
                     format=cur_fmt.format, subsampling=0, quality=100)
 
             else:
-                # out_img = sess.run(frame_out, feed_dict={input_i:net_in, input_target:net_gt})                
+                out_img = sess.run(frame_out, feed_dict={input_i:net_in, input_target:net_gt})                
                 # save_image = np.uint8(out_img[0].clip(0,1) * 255.0)
                 # Image.fromarray(save_image).save("{}/{:04d}/out_main_{:05d}.jpg".format(output_folder, epoch, id))        
                 # save_image = np.uint8(np.concatenate([net_in[0,:,:,:3], out_img[0], net_gt[0]], axis=1).clip(0,1) * 255.0)
