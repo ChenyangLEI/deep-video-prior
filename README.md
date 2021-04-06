@@ -31,9 +31,7 @@ conda activate deep-video-prior
 ### Download VGG model
 ```
 cd deep-video-prior
-
 python download_VGG.py
-
 unzip VGG_Model.zip
 ```
 
@@ -51,15 +49,42 @@ The results are placed in ./result
 For the video with unimodal inconsistency:
 
 ```
-python main_IRT.py --max_epoch 25 --input PATH_TO_YOUR_INPUT_FOLDER --processed PATH_TO_YOUR_PROCESSED_FOLDER --model NAME_OF_YOUR_MODEL --with_IRT 0 --IRT_initialization 0 --output ./result/OWN_DATA
+python dvp_video_consistency.py --input PATH_TO_YOUR_INPUT_FOLDER --processed PATH_TO_YOUR_PROCESSED_FOLDER --task NAME_OF_YOUR_MODEL  --output ./result/OWN_DATA
 ```
 
 For the video with multimodal inconsistency:
 
 ```
-python main_IRT.py --max_epoch 25 --input PATH_TO_YOUR_INPUT_FOLDER --processed PATH_TO_YOUR_PROCESSED_FOLDER --model NAME_OF_YOUR_MODEL --with_IRT 1 --IRT_initialization 1 --output ./result/OWN_DATA
+python dvp_video_consistency.py --input PATH_TO_YOUR_INPUT_FOLDER --processed PATH_TO_YOUR_PROCESSED_FOLDER --task NAME_OF_YOUR_MODEL --with_IRT 1 --IRT_initialization 1 --output ./result/OWN_DATA
 ```
 
+Other information
+```
+  -h, --help            show this help message and exit
+  --task TASK           Name of task
+  --input INPUT         Dir of input video
+  --processed PROCESSED
+                        Dir of processed video
+  --output OUTPUT       Dir of output video
+  --use_gpu USE_GPU     Use gpu or not
+  --loss {perceptual,l1,l2}
+                        Chooses which loss to use. perceptual, l1, l2
+  --network {unet}      Chooses which model to use. unet, fcn
+  --coarse_to_fine_speedup COARSE_TO_FINE_SPEEDUP
+                        Use coarse_to_fine_speedup for training
+  --with_IRT WITH_IRT   Sse IRT or not, set this to 1 if you want to solve
+                        multimodal inconsistency
+  --IRT_initialization IRT_INITIALIZATION
+                        Sse initialization for IRT
+  --large_video LARGE_VIDEO
+                        Set this to 1 when the number of video frames are
+                        large, e.g., more than 1000 frames
+  --save_freq SAVE_FREQ
+                        Save frequency of epochs
+  --max_epoch MAX_EPOCH
+                        The max number of epochs for training
+  --format FORMAT       Format of output image
+```
 
 ## Citation
 If you find this work useful for your research, please cite:
