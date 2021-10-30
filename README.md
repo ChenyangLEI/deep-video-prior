@@ -100,3 +100,9 @@ If you find this work useful for your research, please cite:
 
 ## Contact
 Please contact me if there is any question (Chenyang Lei, leichenyang7@gmail.com)
+
+## Beyond the tasks we evaluated
+Researcher found that DVP can be applied to many more tasks!
+- Video segmentation [AuxAdapt: Stable and Efficient Test-Time Adaptation for Temporally Consistent Video Semantic Segmentation](https://arxiv.org/pdf/2110.12369.pdf)
+- Video denoising [Neural Radiance Flow for 4D View Synthesis and Video Processing](https://arxiv.org/pdf/2012.09790.pdf)
+
