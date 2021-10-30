@@ -102,7 +102,9 @@ If you find this work useful for your research, please cite:
 Please contact me if there is any question (Chenyang Lei, leichenyang7@gmail.com)
 
 ## Beyond the tasks we evaluated
-Researcher found that DVP can be applied to many more tasks!
+Researcher found that Blind Temporal Consistency (e.g., DVP) can be applied to many more tasks!
 - Video segmentation [AuxAdapt: Stable and Efficient Test-Time Adaptation for Temporally Consistent Video Semantic Segmentation](https://arxiv.org/pdf/2110.12369.pdf)
 - Video denoising [Neural Radiance Flow for 4D View Synthesis and Video Processing](https://arxiv.org/pdf/2012.09790.pdf)
+- Low-light Video Enhancement [Learning Temporal Consistency for Low Light Video Enhancement from Single Images](https://openaccess.thecvf.com/content/CVPR2021/papers/Zhang_Learning_Temporal_Consistency_for_Low_Light_Video_Enhancement_From_Single_CVPR_2021_paper.pdf) 
+
 
