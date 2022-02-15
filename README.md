@@ -104,7 +104,7 @@ If you find this work useful for your research, please cite:
                Hao Ouyang and
                Qifeng Chen},
   title     = {Deep Video Prior for Video Consistency and Propagation},
-  journal   = {TPAMI},
+  booktitle   = {TPAMI},
   year      = {2022}
 }
 ```
