@@ -98,7 +98,7 @@ If you find this work useful for your research, please cite:
 ```
 
 ```
-@article{DVP_lei,
+@InProceedings{DVP_lei,
   author    = {Chenyang Lei and
                Yazhou Xing and
                Hao Ouyang and
