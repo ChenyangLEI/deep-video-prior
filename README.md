@@ -97,6 +97,18 @@ If you find this work useful for your research, please cite:
 }                
 ```
 
+```
+@article{DVP_lei,
+  author    = {Chenyang Lei and
+               Yazhou Xing and
+               Hao Ouyang and
+               Qifeng Chen},
+  title     = {Deep Video Prior for Video Consistency and Propagation},
+  journal   = {TPAMI},
+  year      = {2022}
+}
+```
+
 
 ## Contact
 Please contact me if there is any question (Chenyang Lei, leichenyang7@gmail.com)
