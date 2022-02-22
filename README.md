@@ -98,14 +98,14 @@ If you find this work useful for your research, please cite:
 ```
 
 ```
-@InProceedings{DVP_lei,
+@article{DVP_lei,
   author    = {Chenyang Lei and
                Yazhou Xing and
                Hao Ouyang and
                Qifeng Chen},
   title     = {Deep Video Prior for Video Consistency and Propagation},
-  booktitle   = {TPAMI},
-  year      = {2022}
+  journal = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year      = {To Appear}
 }
 ```
 
