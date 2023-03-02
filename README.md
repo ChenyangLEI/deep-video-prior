@@ -29,12 +29,11 @@ conda activate deep-video-prior
 ```
 
 ### Download VGG model
+visit [this link](https://drive.google.com/file/d/1fq8Lxp2iDmyM56Ct-EcPZPJ37-DU_FdM/view?usp=sharing)
 ```
-cd deep-video-prior
-python download_VGG.py
-unzip VGG_Model.zip
+mkdir VGG_Model
+mv $PATH_TO_THE_DOWNLOAD_MODEL VGG_Model
 ```
-
 
 
 ## Inference
