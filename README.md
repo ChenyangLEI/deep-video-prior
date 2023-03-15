@@ -3,6 +3,8 @@ Code for NeurIPS 2020 paper: Blind Video Temporal Consistency via Deep Video Pri
 
 [PyTorch implementation](https://github.com/yzxing87/pytorch-deep-video-prior) | [paper](https://arxiv.org/abs/2010.11838)
 | [project website](https://chenyanglei.github.io/DVP/index.html)
+## News
+- Check our new work [All-in-one-Deflicker!](https://github.com/ChenyangLEI/All-In-One-Deflicker)
 
 ## Introduction
 Our method is a general framework to improve the temporal consistency of video processed by image algorithms. For example, combining image colorization or image dehazing algorithm with our framework, we can achieve the goal of video colorization or video dehazing. 
